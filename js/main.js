@@ -33,15 +33,11 @@ const beatles = {
 
 
 const paul = beatles.members.find(member => {
-  if (member.name === "Paul McCartney") {
-    return member;
-  }
+  return member.name === "Paul McCartney";
 });
 
 const mystery = beatles.albums.find(album => {
-  if (album === "Magical Mystery Tour") {
-    return album;
-  }
+  return album === "Magical Mystery Tour";
 });
 
 
